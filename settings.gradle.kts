@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BaseLoading"
 include(":app")
- 
+include(":loading")
