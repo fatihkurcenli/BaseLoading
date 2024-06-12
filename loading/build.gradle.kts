@@ -55,9 +55,9 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.autumnsun.loading"
-            artifactId = "loading"
-            version = "1.0.0"
+            groupId = "com.github.fatihkurcenli"
+            artifactId = "baseloading"
+            version = "1.0.2"
             afterEvaluate {
                 from(components["release"])
             }
