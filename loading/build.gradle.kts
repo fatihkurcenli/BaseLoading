@@ -57,7 +57,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.fatihkurcenli"
             artifactId = "baseloading"
-            version = "1.0.5"
+            version = "1.0.6"
             afterEvaluate {
                 from(components["release"])
             }
