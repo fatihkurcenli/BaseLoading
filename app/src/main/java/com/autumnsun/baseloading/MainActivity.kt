@@ -12,13 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.autumnsun.baseloading.ui.theme.BaseLoadingTheme
-import com.autumnsun.loading.HelloWorld
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        HelloWorld.test()
         setContent {
             BaseLoadingTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
