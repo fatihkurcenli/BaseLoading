@@ -1,4 +1,4 @@
-package com.autumnsun.baseloading.ui.theme
+package com.autumnsun.loading.theme
 
 import androidx.compose.ui.graphics.Color
 

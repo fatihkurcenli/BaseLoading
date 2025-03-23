@@ -1,6 +1,5 @@
-package com.autumnsun.baseloading.ui.theme
+package com.autumnsun.loading.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
