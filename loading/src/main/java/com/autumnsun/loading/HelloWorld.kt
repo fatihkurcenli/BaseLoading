@@ -1,5 +1,8 @@
 package com.autumnsun.loading
 
+import androidx.annotation.Keep
+
+@Keep
 object HelloWorld {
 
     fun test() {
